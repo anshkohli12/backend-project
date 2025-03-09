@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart | FoodieExpress</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">FoodieExpress</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="cart.html" class="active">Cart</a>
+            <a href="login.html" id="loginBtn">Login</a>
+        </div>
+    </nav>
+
+    <div class="cart-container">
+        <h1>Your Cart</h1>
+        <div id="cart-items" class="cart-items">
+            <!-- Cart items will be dynamically inserted here -->
+        </div>
+        <div class="cart-summary">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total-amount">₹0.00</span>
+            </div>
+            <button id="checkout-btn" class="checkout-btn" disabled>Proceed to Checkout</button>
+            <button id="clear-cart-btn" class="clear-cart-btn" disabled>Clear Cart</button>
+        </div>
+    </div>
+
+    <footer>
+        <!-- ...existing footer code... -->
+    </footer>
+
+    <script src="js/api.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>

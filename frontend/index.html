@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery | Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">FoodieExpress</div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="cart.html">Cart</a>
+            <a href="login.html" id="loginBtn">Login</a>
+            <button id="darkModeToggle" class="dark-mode-btn" aria-label="Toggle dark mode">
+                <img src="https://cdn-icons-png.flaticon.com/128/3073/3073665.png" alt="Dark Mode" class="dark-icon">
+                <img src="https://cdn-icons-png.flaticon.com/128/702/702471.png" alt="Light Mode" class="light-icon">
+            </button>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="hero-slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/1.jpeg')"></div>
+        <div class="hero-slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/2.jpeg')"></div>
+        <div class="hero-slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/3.webp')"></div>
+        <div class="hero-slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/4.webp')"></div>
+        <div class="hero-slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/5.jpeg')"></div>
+        <div class="hero-content">
+            <h1>Order Delicious Food Online</h1>
+            <p>Choose from hundreds of restaurants</p>
+            <div class="search-container">
+                <input type="text" placeholder="Search for food or restaurants...">
+                <button class="search-btn">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="featured-restaurants">
+        <h2>Featured Restaurants</h2>
+        <div id="restaurants-container" class="restaurant-grid"></div>
+    </section>
+
+    <section class="special-discount-section">
+        <div class="discount-container">
+            <div class="discount-card">
+                <div class="discount-content">
+                    <h2>Exclusive Offer</h2>
+                    <h3>50% OFF</h3>
+                    <p>Get amazing discount on your first order</p>
+                    <div class="discount-code">WELCOME50</div>
+                    <button class="cta-button">Claim Offer</button>
+                </div>
+                <div class="discount-image">
+                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg" alt="Special Offer">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular-cuisines">
+        <br>
+        <h2>Popular Cuisines</h2>
+        <div class="cuisine-grid">
+            <div class="cuisine-card">
+                <img src="https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg" alt="Italian">
+                <h3>Italian</h3>
+            </div>
+            <div class="cuisine-card">
+                <img src="https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg" alt="Japanese">
+                <h3>Japanese</h3>
+            </div>
+            <div class="cuisine-card">
+                <img src="https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg" alt="Mexican">
+                <h3>Mexican</h3>
+            </div>
+            <div class="cuisine-card">
+                <img src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg" alt="Indian">
+                <h3>Indian</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="trending-section">
+        <h2>Trending This Week</h2>
+        <div class="trending-slider-container">
+            <div class="trending-slider">
+                <div class="trending-card">
+                    <div class="trending-badge">HOT</div>
+                    <img src="https://images.pexels.com/photos/1639565/pexels-photo-1639565.jpeg" alt="Trending Food">
+                    <div class="trending-content">
+                        <h3>Premium Burger</h3>
+                        <p>Special cheese burger with extras</p>
+                        <div class="trending-footer">
+                            <span class="price">$12.99</span>
+                            <button class="order-now">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-card">
+                    <div class="trending-badge">SPECIAL</div>
+                    <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg" alt="Pasta Delight">
+                    <div class="trending-content">
+                        <h3>Pasta Delight</h3>
+                        <p>Creamy sauce with garlic bread</p>
+                        <div class="trending-footer">
+                            <span class="price">$14.99</span>
+                            <button class="order-now">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-card">
+                    <div class="trending-badge">SPECIAL</div>
+                    <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg" alt="Pasta Delight">
+                    <div class="trending-content">
+                        <h3>Pasta Delight</h3>
+                        <p>Creamy sauce with garlic bread</p>
+                        <div class="trending-footer">
+                            <span class="price">$14.99</span>
+                            <button class="order-now">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-card">
+                    <div class="trending-badge">NEW</div>
+                    <img src="https://images.pexels.com/photos/2714722/pexels-photo-2714722.jpeg" alt="Pizza Special">
+                    <div class="trending-content">
+                        <h3>Supreme Pizza</h3>
+                        <p>Loaded with premium toppings</p>
+                        <div class="trending-footer">
+                            <span class="price">$18.99</span>
+                            <button class="order-now">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-card">
+                    <div class="trending-badge">POPULAR</div>
+                    <img src="https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg" alt="Asian Bowl">
+                    <div class="trending-content">
+                        <h3>Asian Rice Bowl</h3>
+                        <p>Fresh vegetables and tender meat</p>
+                        <div class="trending-footer">
+                            <span class="price">$15.99</span>
+                            <button class="order-now">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-card">
+                    <div class="trending-badge">SPECIAL</div>
+                    <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg" alt="Pasta Delight">
+                    <div class="trending-content">
+                        <h3>Pasta Delight</h3>
+                        <p>Creamy sauce with garlic bread</p>
+                        <div class="trending-footer">
+                            <span class="price">$14.99</span>
+                            <button class="order-now">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-highlight">
+        <div class="feature-highlight-container">
+            <div class="highlight-card">
+                <i class="fas fa-clock-rotate-left"></i>
+                <h3>24/7 Delivery</h3>
+                <p>Order anytime, anywhere</p>
+            </div>
+            <div class="highlight-card">
+                <i class="fas fa-shield-check"></i>
+                <h3>Secure Payment</h3>
+                <p>100% secure transactions</p>
+            </div>
+            <div class="highlight-card">
+                <i class="fas fa-tag"></i>
+                <h3>Best Deals</h3>
+                <p>Regular offers & discounts</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About FoodieExpress</h3>
+                <p>Your ultimate destination for food delivery and culinary exploration in India. We bring the finest restaurants and authentic Indian cuisine right to your doorstep.</p>
+                <div class="footer-social">
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/733/733547.png" alt="Facebook"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/733/733579.png" alt="Twitter"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="Instagram"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/3938/3938026.png" alt="YouTube"></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="restaurants.html">Restaurants</a></li>
+                    <li><a href="blogs.html">Food Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <ul class="contact-info">
+                    <li><img src="https://cdn-icons-png.flaticon.com/128/2838/2838912.png" alt="Location"> 123 Food Street, Mumbai, India</li>
+                    <li><img src="https://cdn-icons-png.flaticon.com/128/561/561253.png" alt="Phone"> +91 98765 43210</li>
+                    <li><img src="https://cdn-icons-png.flaticon.com/128/552/552486.png" alt="Email"> info@foodieexpress.in</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Download Our App</h3>
+                <div class="app-buttons">
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Play Store"></a>
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 FoodieExpress. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/api.js"></script>
+    <script src="js/index.js"></script>
+
+    <script>
+        // Slideshow functionality
+        const slides = document.querySelectorAll('.hero-slide');
+        let currentSlide = 0;
+
+        // Set first slide as active
+        slides[0].classList.add('active');
+
+        function nextSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }
+
+        // Change slide every 3 seconds (changed from 5 seconds)
+        setInterval(nextSlide, 3000);
+
+        // Dark mode toggle functionality
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const body = document.body;
+
+        // Check for saved dark mode preference
+        if (localStorage.getItem('darkMode') === 'enabled') {
+            body.classList.add('dark-mode');
+        }
+
+        darkModeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            
+            // Save preference
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('darkMode', 'enabled');
+            } else {
+                localStorage.setItem('darkMode', 'disabled');
+            }
+        });
+    </script>
+</body>
+</html>
